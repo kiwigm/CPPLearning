@@ -1,0 +1,9 @@
+project (demo04File)
+
+AUX_SOURCE_DIRECTORY(./ DIR_LIB_SRCS)
+
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/../../bin)
+
+ADD_EXECUTABLE(demo04File
+        ${DIR_LIB_SRCS}
+        )

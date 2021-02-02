@@ -1,0 +1,6 @@
+#ifndef CPPLEARNING_DEMO08STL_H
+#define CPPLEARNING_DEMO08STL_H
+
+void demo08Test();
+
+#endif //CPPLEARNING_DEMO08STL_H
